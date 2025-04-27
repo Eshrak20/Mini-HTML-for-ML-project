@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customer Segmentation</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav-style">
+        <span class="logo">
+            <img src="./DALL·E 2024-11-21 19.10.22 - A minimalist logo combining elements of machine learning and the branding of United International University (UIU). The left side includes the origina.webp" alt="Logo">
+        </span>
+        <h1>Deep Learning Final Project: Customer Segmentation</h1>
+      </nav>
+      <div class="input-body">
+        <div class="input-part">
+          <label for="gender">Gender:</label>
+          <input type="number" id="gender" placeholder="0 for male, 1 for female" />
+        </div>
+
+        <div class="input-part">
+          <label for="age">Age:</label>
+          <input type="number" id="age" placeholder="Enter age" />
+        </div>
+
+        <div class="input-part">
+          <label for="income">Income:</label>
+          <input type="number" id="income" placeholder="Enter annual income" />
+        </div>
+
+        <div class="input-part">
+          <label for="spending-score">Spending Score:</label>
+          <input type="number" id="spending-score" placeholder="Enter spending score" />
+        </div>
+
+        <button class="btn" id="predict-btn">Predict</button>
+
+        <div id="result"></div>
+      </div>
+      <footer>
+        <h3>Presentation by Mahbub Alom Shohag & Harunur Rashid</h3>
+      </footer>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

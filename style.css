@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Navbar */
+  .nav-style {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #1e1e1e;
+    padding: 10px 20px;
+    border-bottom: 2px solid #00d9a5;
+  }
+  
+  .nav-style h1 {
+    font-size: 1.5rem;
+    color: #00d9a5;
+    margin-left: -50px;
+  }
+  
+  .logo {
+    display: inline-block; /* Ensures it fits neatly in-line with text */
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    overflow: hidden; /* Ensures no overflow beyond boundaries */
+    text-align: center; /* Center content if applicable */
+}
+
+.logo img {
+    max-width: 50%; /* Makes the image responsive */
+    height: auto; /* Maintains the aspect ratio */
+    display: block; /* Removes extra space below the image */
+    border-radius: 10px; /* Rounds the corners of the image */
+}
+
+  
+  /* Input Body */
+  .input-body {
+    margin-top: 20px;
+    padding: 20px;
+    background: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 217, 165, 0.3);
+  }
+  
+  .input-part {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #2a2a2a;
+    color: #e0e0e0;
+  }
+  
+  input:focus {
+    outline: none;
+    border: 1px solid #00d9a5;
+  }
+  
+  /* Button */
+  .btn {
+    padding: 10px 20px;
+    background: #00d9a5;
+    color: #121212;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background: #009c7a;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #00d9a5;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #e0e0e0;
+  }
+  
